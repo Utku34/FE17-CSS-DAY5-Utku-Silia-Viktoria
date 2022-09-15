@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(230, 209, 223, 0.8);
+  position: fixed;
+  width: 100%;
+}
+
+header nav {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1.5rem 1rem;
+}
+
+header a {
+  padding: 0.3rem 2.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+header a:hover {
+  letter-spacing: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .search {
+  margin-left: 18rem;
+  border: 2px solid green;
+  bottom: 2rem;
+}
+
+header .search input {
+  width: 18rem;
+  height: 3rem;
+  border-radius: 5rem;
+  padding-left: 2rem;
+  background-color: rgba(230, 209, 223, 0.8);
+  border: 2px solid white;
+}
+
+header .search i {
+  display: inline;
+  border: 2px solid white;
+  width: 10rem;
+  height: 2rem;
+}
+
+header .search i .fa-solid {
+  width: 20rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  height: 2000px;
+}
+
+.background {
+  background-image: url(./redbook-melissa-mccarthy-inline-003-today-160308.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lead {
+  padding: 25rem 0;
+}
+
+.lead h1 {
+  font-size: 5vw;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  margin: 3rem;
+}
+
+.item1 h3 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  letter-spacing: 0.2rem;
+  margin-left: 4.5rem;
+  margin-top: 5rem;
+}
+
+.item1 iframe {
+  border-radius: 2rem;
+  width: 80%;
+  height: 60%;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.item1 iframe:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+}
+
+.item2 {
+  margin-top: 5.5rem;
+}
+
+.item2 p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+/*# sourceMappingURL=style.css.map */
