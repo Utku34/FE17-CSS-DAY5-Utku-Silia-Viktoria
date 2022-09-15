@@ -1,0 +1,17 @@
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: $background_laptop;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 601px) {
+    body {
+        background-color: $background_tablet;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: $background_phone;
+    }
+}
