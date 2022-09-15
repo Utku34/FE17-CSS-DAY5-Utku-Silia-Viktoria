@@ -1,0 +1,6 @@
+@mixin cell_size ($row_start, $row_end, $column_start, $column_end) {
+    grid-row-start: $row_start;
+    grid-column-start: $column_start;
+    grid-row-end: $row_end;
+    grid-column-end: $column_end;
+}

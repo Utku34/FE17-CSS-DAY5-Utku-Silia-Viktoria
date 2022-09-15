@@ -1,0 +1,13 @@
+ @media screen and (max-width:600px) {
+     nav {
+         ul {
+             background-color: grey;
+             width: 100%;
+         }
+         li {
+             a {
+                 font-size: 1.6rem;
+             }
+         }
+     }
+ }
